@@ -1,0 +1,22 @@
+{
+  "name": "neogcamp-markthree-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thopatevijay/neogcamp-markThree-1.git"
+  },
+  "author": "vijay thopate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thopatevijay/neogcamp-markThree-1/issues"
+  },
+  "homepage": "https://github.com/thopatevijay/neogcamp-markThree-1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
