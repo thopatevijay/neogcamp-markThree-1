@@ -25,6 +25,17 @@ var questions = [
     }
 ];
 
+var highScores = [
+    {
+        name: 'Jay',
+        score: 4
+    },
+    {
+        name: 'John',
+        score: 5
+    }
+]
+
 function welcome() {
     var userName = readlineSync.question("What is your name? ");
 
@@ -52,5 +63,14 @@ function play(question, answer) {
     console.log('-------------------');
 }
 
+function showScore() {
+    console.log('You scored: ', score);
+
+    console.log("Check out the high scores, if you should be there ping me and   I'll update it");
+
+    highScores.map(score => console.log(score.name, " : ", score.score));
+}
+
 welcome();
 game();
+showScore();
